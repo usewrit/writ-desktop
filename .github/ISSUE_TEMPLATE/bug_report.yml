@@ -1,0 +1,89 @@
+name: Bug report
+description: Something in Writ Desktop is broken or behaves unexpectedly.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Two things first:
+
+        - **Security vulnerability?** Do not file it here. Follow
+          [SECURITY.md](https://github.com/usewrit/writ-desktop/blob/main/SECURITY.md)
+          so it can be fixed before it is public.
+        - **Logs can contain the URLs you automate and page content.** Read anything you
+          paste and redact what you would not post publicly.
+
+  - type: input
+    id: version
+    attributes:
+      label: Writ Desktop version
+      description: Settings → About
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS (Apple silicon)
+        - macOS (Intel)
+        - Windows
+        - Linux (deb)
+        - Linux (AppImage)
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: "macOS 15.1 / Windows 11 23H2 / Ubuntu 24.04"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you got instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Does it happen every time?
+      options:
+        - Every time
+        - Sometimes
+        - Happened once
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: >
+        Settings → About → Open logs. Paste the tail around the failure — not the whole
+        file. Redact URLs, page content, and anything else you would not post publicly.
+      render: shell
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, workarounds you found, whether it started after an update.

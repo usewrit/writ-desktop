@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/usewrit/writ-desktop/security/advisories/new
+    about: >
+      Report privately through a GitHub security advisory, or email
+      security@usewrit.app. Never in a public issue — see SECURITY.md for the
+      disclosure policy, response targets, and safe harbor.
+  - name: Support and account questions
+    url: mailto:support@usewrit.app
+    about: Billing, cloud accounts, or anything that is not a bug in the app.
+  - name: The open-source engine
+    url: https://github.com/usewrit/writ-agent
+    about: Issues with writ-agent itself — the Rust engine the app drives — belong there.
+  - name: The self-hosted server
+    url: https://github.com/usewrit/writ
+    about: Issues with the self-hosted coordinator belong in that repository.

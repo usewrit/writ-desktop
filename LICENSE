@@ -1,0 +1,105 @@
+Writ Desktop — End User License Agreement
+=========================================
+
+Copyright (c) 2026 Writ. All rights reserved.
+
+This repository distributes the Writ Desktop application in BINARY FORM ONLY.
+Writ Desktop is **proprietary software**. It is NOT open source, and nothing in
+this repository grants any licence to the application's source code.
+
+Do not confuse this with the Writ open-source projects. The Rust agent
+(`usewrit/writ-agent`) and the self-hosted coordinator (`usewrit/writ`) are
+separately published under their own open-source licences, which apply to those
+repositories and not to this one.
+
+--------------------------------------------------------------------------------
+1. LICENCE GRANT
+--------------------------------------------------------------------------------
+
+Subject to your compliance with this Agreement, Writ grants you a personal,
+non-exclusive, non-transferable, revocable licence to install and use one copy
+of Writ Desktop per device you own or control, for your own personal or internal
+business purposes.
+
+--------------------------------------------------------------------------------
+2. RESTRICTIONS
+--------------------------------------------------------------------------------
+
+You may not:
+
+  (a) redistribute, sell, rent, lease, sublicense, or host the application for
+      third parties;
+  (b) reverse engineer, decompile, or disassemble the application, or attempt to
+      derive its source code, except to the extent that this restriction is
+      expressly prohibited by applicable law;
+  (c) remove, obscure, or alter any copyright, trademark, or other proprietary
+      notice;
+  (d) use the application to build a competing product;
+  (e) circumvent or disable any licence check, entitlement check, or update
+      signature verification.
+
+Nothing in this section restricts rights you hold under the separate
+open-source licences of the components listed in `THIRD_PARTY_NOTICES.md`.
+
+--------------------------------------------------------------------------------
+3. OPEN-SOURCE COMPONENTS
+--------------------------------------------------------------------------------
+
+Writ Desktop bundles third-party open-source software. Each such component is
+licensed under its own terms, which are reproduced in full in
+`THIRD_PARTY_NOTICES.md` in this repository and shipped inside the application
+(Settings → About → Open-source licences). Where a component's licence grants
+you rights broader than this Agreement, that licence governs that component.
+
+--------------------------------------------------------------------------------
+4. UPDATES
+--------------------------------------------------------------------------------
+
+The application may check for and install updates. Every update is verified
+against a signing key compiled into the application before it is applied; an
+update that does not verify is refused. Automatic updates can be disabled in the
+application's settings, and managed deployments can point the application at an
+internal update feed or disable updates entirely.
+
+--------------------------------------------------------------------------------
+5. DATA
+--------------------------------------------------------------------------------
+
+Writ Desktop is local-first. Your workflows, credentials, and run results are
+stored on your own machine. Nothing is transmitted to Writ unless you explicitly
+link a cloud account or opt in to diagnostics. See `SECURITY.md` for the precise,
+bounded description of what is and is not protected, and what is and is not sent.
+
+--------------------------------------------------------------------------------
+6. NO WARRANTY
+--------------------------------------------------------------------------------
+
+THE APPLICATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+--------------------------------------------------------------------------------
+7. LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL WRIT BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE APPLICATION OR THE USE
+OR OTHER DEALINGS IN THE APPLICATION.
+
+You are responsible for the workflows you build and run, and for complying with
+the terms of service and applicable law of every website you automate.
+
+--------------------------------------------------------------------------------
+8. TERMINATION
+--------------------------------------------------------------------------------
+
+This licence terminates automatically if you breach it. On termination you must
+stop using and delete all copies of the application.
+
+--------------------------------------------------------------------------------
+9. CONTACT
+--------------------------------------------------------------------------------
+
+Questions about this licence: legal@usewrit.app
+Security disclosures: security@usewrit.app (see `SECURITY.md`)
