@@ -12,6 +12,3 @@ contact_links:
   - name: The open-source engine
     url: https://github.com/usewrit/writ-agent
     about: Issues with writ-agent itself — the Rust engine the app drives — belong there.
-  - name: The self-hosted server
-    url: https://github.com/usewrit/writ
-    about: Issues with the self-hosted coordinator belong in that repository.
