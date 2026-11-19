@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="Writ Desktop — record a web task once, replay it forever, on your own machine" width="100%">
+  <a href="https://usewrit.app"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/cover-dark.png">
+    <img src="./assets/cover-light.png" alt="Writ Desktop: your own API to any website, on your own computer. usewrit.app" width="100%">
+  </picture></a>
 
   <br/>
 
@@ -13,10 +16,11 @@
     <img src="https://img.shields.io/badge/local--first-yes-16a34a?style=flat-square" alt="Local-first">
   </p>
 
-  <h3 align="center">Record a web task once. Replay it forever — on your own machine.</h3>
-  <p align="center">Turn any website into a workflow, a REST API, or an MCP tool your AI assistant can call.</p>
+  <h3 align="center">Your own API to any website, on your own computer.</h3>
+  <p align="center">Build website APIs from a sentence and run them on your machine: your sign-ins, your connection, 0 credits.</p>
 
   <p align="center">
+    <a href="https://usewrit.app/desktop/"><b>usewrit.app/desktop</b></a> ·
     <a href="#install"><b>Install</b></a> ·
     <a href="#what-it-does"><b>What it does</b></a> ·
     <a href="#connect-your-ai-mcp"><b>Connect your AI</b></a> ·
